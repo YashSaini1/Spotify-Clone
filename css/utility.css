@@ -1,0 +1,47 @@
+.border {
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.light-black {
+    background-color: #121212;
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+/* For WebKit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+    /* width of the scrollbar */
+    width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    /* color of the thumb */
+    background-color: #424242;
+    /* rounded corners of the thumb */
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    /* color of the track */
+    background-color: #333;
+}
